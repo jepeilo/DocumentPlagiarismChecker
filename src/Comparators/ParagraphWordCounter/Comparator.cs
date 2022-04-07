@@ -35,7 +35,8 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
         /// </summary>
         /// <returns>The matching's results.</returns>
         public override ComparatorMatchingScore Run(){   
-            //Este es el comentario  
+            //Este es el 2comentario2
+            //  
             //This order is meant to improving performance
             ExcludeSampleExactMatches(); 
             //Este es el comentario
