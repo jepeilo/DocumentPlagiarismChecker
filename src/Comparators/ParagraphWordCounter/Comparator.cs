@@ -38,6 +38,7 @@ namespace DocumentPlagiarismChecker.Comparators.ParagraphWordCounter
             //Este es el comentario  
             //This order is meant to improving performance
             ExcludeSampleExactMatches(); 
+            //Este es el comentario
             ExcludeSamplePartialMatches(this.Left, 0.70f);  //TODO: threshold value must be get from settings; check if can be removed
             ExcludeSamplePartialMatches(this.Right, 0.70f);  //TODO: threshold value must be get from settings; check if can be removed
             ExcludeExclussionListMatches();

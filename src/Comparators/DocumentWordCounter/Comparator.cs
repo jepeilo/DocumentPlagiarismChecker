@@ -3,7 +3,6 @@
     This software it's under the terms of the GNU Affero General Public License version 3.
     Please, refer to (https://github.com/FherStk/DocumentPlagiarismChecker/blob/master/LICENSE) for further licensing details.
  */
- 
 using System;
 using System.Linq;
 using System.Collections.Generic;
@@ -29,12 +28,14 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
         /// <returns></returns>
         public Comparator(string fileLeftPath, string fileRightPath, Settings settings): base(fileLeftPath, fileRightPath, settings){
         }  
+        //Este es el comentario
         
         /// <summary>
         /// Counts how many words and how many times appears within each document, and checks the matching percentage.
         /// </summary>
         /// <returns>The matching's results.</returns>
         public override ComparatorMatchingScore Run(){
+             //Este es el comentario
             //Counting the words appearences for each document (left and right).
             Dictionary<string, int[]> counter = new Dictionary<string, int[]>();
             foreach(string word in this.Left.WordAppearances.Select(x => x.Key)){
