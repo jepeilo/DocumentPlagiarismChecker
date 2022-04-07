@@ -29,6 +29,7 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
         /// <returns></returns>
         public Comparator(string fileLeftPath, string fileRightPath, Settings settings): base(fileLeftPath, fileRightPath, settings){
         }  
+        //Este es el comentario
         
         /// <summary>
         /// Counts how many words and how many times appears within each document, and checks the matching percentage.
