@@ -3,7 +3,6 @@
     This software it's under the terms of the GNU Affero General Public License version 3.
     Please, refer to (https://github.com/FherStk/DocumentPlagiarismChecker/blob/master/LICENSE) for further licensing details.
  */
- //Este es el comentario
 using System;
 using System.Linq;
 using System.Collections.Generic;
@@ -35,6 +34,7 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
         /// </summary>
         /// <returns>The matching's results.</returns>
         public override ComparatorMatchingScore Run(){
+             //Este es el comentario
             //Counting the words appearences for each document (left and right).
             Dictionary<string, int[]> counter = new Dictionary<string, int[]>();
             foreach(string word in this.Left.WordAppearances.Select(x => x.Key)){
